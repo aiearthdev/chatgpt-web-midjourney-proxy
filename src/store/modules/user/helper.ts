@@ -18,9 +18,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg',
-      name:  t('mjset.sysname'),//'AI绘图',
-      description: 'Star on <a href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" class="text-blue-500" target="_blank" >GitHub</a>',
+      avatar: 'https://s2.loli.net/2024/06/16/EtS6vjdcmf3WITq.png',
+      name:  t('mjset.sysname'),//'GT科技·AIO',
+      description: 'ALL IN ONE (AIO) 开放接口(API)平台',
     },
   }
 }
