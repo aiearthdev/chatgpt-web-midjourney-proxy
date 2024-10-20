@@ -76,50 +76,6 @@ const routes: RouteRecordRaw[] = [
     ],
   },
 
-    {
-    path: '/music',
-    name: 'music',
-    component: sunoLayout,
-    redirect: '/music/index',
-    children: [
-      {
-        path: '/music/:uuid?',
-        name: 'music',
-        component: () => import('@/views/suno/music.vue'),
-      },
-    ],
-
-    
-
-  },
-  {
-    path: '/video',
-    name: 'video',
-    component: lumaLayout,
-    redirect: '/video/index',
-    children: [
-      {
-        path: '/video/:uuid?',
-        name: 'video',
-        component: () => import('@/views/luma/video.vue'),
-      },
-    ],
-  },
-
-  {
-    path: '/dance',
-    name: 'dance',
-    component: lumaLayout,
-    redirect: '/dance/index',
-    children: [
-      {
-        path: '/dance/:uuid?',
-        name: 'dance',
-        component: () => import('@/views/viggle/dance.vue'),
-      },
-    ],
-  },
-
   {
     path: '/wav',
     name: 'wav',
